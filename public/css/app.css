@@ -1,0 +1,48 @@
+.tweet-text-container > input {
+    width: 100%;
+    border: none;
+    padding: 12px
+}
+input[type="file"] {
+display: none;
+}
+
+input:focus{
+    outline: none;
+}
+.custom-file-upload {
+display: inline-block;
+padding: 6px 12px;
+cursor: pointer;
+}
+.tweetBtn {
+padding: 8px;
+background-color: #0388fc;
+color: white;
+border-top-left-radius: 18px;
+border-bottom-right-radius: 18px;
+}
+.card {
+    margin-top: 14px;
+}
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 999px;
+  margin-right: 12px;
+}
+
+.follow-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
