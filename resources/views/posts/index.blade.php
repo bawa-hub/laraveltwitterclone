@@ -48,9 +48,6 @@
                             </div>
                            <div class="follow-container">
                             <p>{{ $p->user->name }} <span style="color: rgb(172, 156, 156)">{{ $p->created_at->diffForHumans() }}</span></p> 
-                            @if(Auth::user()->id!=$p->user_id)
-                            <p>Follow</p>
-                            @endif
                            </div>
                         </div> 
                         <div>
